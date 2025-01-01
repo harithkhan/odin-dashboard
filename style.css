@@ -39,6 +39,11 @@
 
   /* Reset Ends */
 
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
 html, body {
     height: 1000px;
 }
