@@ -68,6 +68,7 @@ header {
 .sidebar img {
   width: 2rem;
   height: 2rem;
+  filter: brightness(0) invert(1);
 }
 
 .dashboard-text {
