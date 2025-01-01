@@ -47,6 +47,7 @@ html, body {
     display: grid;
     grid-template: 1fr 4fr / 1fr 4fr;
     height: 100%;
+    font-family: roboto, arial, 'Times New Roman', Times, serif;
 }
 
 header {
