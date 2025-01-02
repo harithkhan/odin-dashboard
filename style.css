@@ -294,18 +294,29 @@ main {
   grid-template-rows: 3fr 1fr;
   overflow-y: auto;
   background-color: white;
-  border-radius: 12px;
+  border-radius: 8px;
+  padding: 2rem 2rem 0 2rem;
+  border-left: 0.6rem solid #f0b429;
 }
 
 .project-icons-container {
   display: flex;
   justify-content: right;
   gap: 2rem;
+  align-items: center;
 }
 
 .project-icon {
-  width: 2rem;
+  width: 1.5rem;
   height: 2rem;
+}
+
+.project-header {
+  font-weight: bold;
+}
+
+.project-description {
+  color: #636363;
 }
 
 .secondary-main-container {
