@@ -124,6 +124,7 @@ header {
 
 .sidebar a {
   transition: color 0.3s ease;
+  min-width: max-content;
 }
 
 .sidebar-item a:hover {
