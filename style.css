@@ -90,12 +90,14 @@ header {
 
 header {
   grid-column: 2 / -1;
+  height: auto;
 }
 
 .sidebar {
   background-color: #1992d4;
   grid-column: 1 / 2;
   grid-row: 1 / -1;
+  overflow: hidden;
 }
 
 .sidebar-item {
@@ -118,7 +120,7 @@ header {
 main {
   background-color: #e2e8f0;
   grid-column: 2 / -1;
-  
+  overflow-y: auto; 
 }
 
 .main-flex-container {
@@ -126,7 +128,6 @@ main {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  overflow: auto; 
 }
 
 .main-grid-container {
@@ -148,6 +149,25 @@ main {
 
 .projects-header {
   grid-column: 1 / -1;
+}
+
+.project-card {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.project-icons-container {
+  display: flex;
+  justify-content: right;
+  gap: 2rem;
+}
+
+.project-icon {
+  width: 2rem;
+  height: 2rem;
 }
 
 .secondary-main-container {
