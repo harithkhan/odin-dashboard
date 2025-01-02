@@ -93,13 +93,30 @@ form {
   box-sizing: border-box;
 }
 
-.header-action-container-1 {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 3fr 1fr;
+.header-action-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.profile-icon-action {
+  width: 3rem;
+  height: 3rem;
+  height: auto;
+  border-radius: 50px;
+}
+
+.notification-icon {
+  width: 2rem;
+  height: 2rem;
+  grid-column: 2 / span 1;
 }
 
 .user-name-action {
   grid-column: 4 / 5;
+  font-weight: bold;
+  font-size: 1.3rem;
 }
 
 .profile-container-header {
