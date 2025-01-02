@@ -39,6 +39,7 @@
 
   /* Reset Ends */
 
+
 @font-face {
   font-family: roboto;
   src: url(fonts/Roboto/Roboto-Regular.ttf);
@@ -48,9 +49,20 @@ html, body {
   height: 100%;
 }
 
+.page-container {
+  display: grid;
+  grid-template: 2fr 5fr / 1fr 4fr;
+  height: 100%;
+  font-family: roboto, arial, 'Times New Roman', Times, serif;
+}
+
+/* Header */
+
 header {
   display: grid;
   grid-template: 1fr 1fr / 2fr 1fr;
+  grid-column: 2 / -1;
+  height: auto;
 }
 
 .search-bar-container { 
@@ -81,17 +93,7 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.page-container {
-  display: grid;
-  grid-template: 2fr 5fr / 1fr 4fr;
-  height: 100%;
-  font-family: roboto, arial, 'Times New Roman', Times, serif;
-}
-
-header {
-  grid-column: 2 / -1;
-  height: auto;
-}
+/* Sidebar */
 
 .sidebar {
   background-color: #1992d4;
@@ -116,6 +118,8 @@ header {
   text-decoration: none;
   color: white;
 }
+
+/* Main */
 
 main {
   background-color: #e2e8f0;
