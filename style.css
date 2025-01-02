@@ -278,7 +278,7 @@ main {
 
 .projects-container {
   display: grid;
-  grid-template: 1fr repeat(3, 3fr) / repeat(2, 1fr); 
+  grid-template: 0.5fr repeat(3, 3fr) / repeat(2, 1fr); 
   gap: 2rem;
 }
 
