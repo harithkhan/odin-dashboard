@@ -83,6 +83,7 @@ header {
   background-color: #e2e8f0;
   border: none;
   border-radius: 30px;
+  padding-left: 1rem;
 }
 
 .header-action-container-1 {
