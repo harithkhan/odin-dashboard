@@ -68,6 +68,21 @@ header {
 .search-bar-container { 
   display: grid;
   grid-template-columns: 1fr 7fr;
+  align-items: center;
+  justify-items: center;
+}
+
+.search-bar-container img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.search-bar {
+  width: 30ch;
+  height: 2rem;
+  background-color: #e2e8f0;
+  border: none;
+  border-radius: 30px;
 }
 
 .header-action-container-1 {
