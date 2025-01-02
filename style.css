@@ -151,6 +151,23 @@ form {
 .header-action-container-2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.header-buttons {
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  color: white;
+  background-color: #1992d4;
+  height: 2.5rem;
+  transition: filter 0.3s ease;
+}
+
+.header-buttons:hover {
+  background-color: #1478aa;
 }
 
 /* Sidebar */
