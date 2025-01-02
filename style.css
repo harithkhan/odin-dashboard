@@ -51,7 +51,7 @@ html, body {
 
 .page-container {
   display: grid;
-  grid-template: 2fr 5fr / 1fr 4fr;
+  grid-template: 1fr 4fr / 1fr 4fr;
   height: 100%;
   font-family: roboto, arial, 'Times New Roman', Times, serif;
 }
@@ -66,10 +66,10 @@ header {
 }
 
 .search-bar-container { 
-  display: grid;
-  grid-template-columns: 1fr 7fr;
+  display: flex;
   align-items: center;
-  justify-items: center;
+  padding-left: 3rem;
+  gap: 1rem;
 }
 
 .search-bar-container img {
