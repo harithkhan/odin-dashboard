@@ -99,24 +99,77 @@ header {
   background-color: #1992d4;
   grid-column: 1 / 2;
   grid-row: 1 / -1;
-  overflow: hidden;
+  display: grid;
+  grid-template-rows: 2fr repeat(6, 1fr) 1fr repeat(3, 1fr) 4fr;
+}
+
+.settings-container {
+  grid-row: 9 / span 1;
+}
+
+.support-container {
+  grid-row: 10 / span 1;
+}
+
+.privacy-container {
+  grid-row: 11 / span 1;
 }
 
 .sidebar-item {
   display: flex;
   align-items: center;
+  gap: 1.3rem;
+  margin: 0 1rem 0 1.5rem;
+}
+
+.sidebar a {
+  transition: color 0.3s ease;
+}
+
+.sidebar-item a:hover {
+  color: #b1b1b1;
+}
+
+.icon-container {
+  position: relative;
+}
+
+.icon-container > a, 
+.icon-container > div {
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.icon-container a {
+  font-size: 1.7rem;
+}
+
+.sidebar > .icon-container {
   gap: 1rem;
+  margin: 0 1rem 0 1rem;
+  position: relative;
+}
+
+.icon-container a img {
+  width: 3.4rem;
+  height: 3.4rem;
 }
 
 .sidebar img {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
   filter: brightness(0) invert(1);
+}
+
+.sidebar img:hover {
+  filter: brightness(0) invert(0.7);
 }
 
 .dashboard-text {
   text-decoration: none;
   color: white;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 /* Main */
