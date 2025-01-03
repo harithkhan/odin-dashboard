@@ -327,7 +327,7 @@ main {
 
 .announcements-container {
   display: grid;
-  grid-template-rows: 0.8fr 4fr;
+  grid-template-rows: 1fr 4fr;
 }
 
 .announcement-items {
@@ -338,7 +338,8 @@ main {
 .announcements-content-header {
   font-weight: bold;
   font-size: 1.2rem;
-  margin-top: 2.2rem;
+  align-self: end;
+  margin-bottom: 1rem;
   margin-left: 1rem;
 }
 
