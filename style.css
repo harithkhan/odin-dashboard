@@ -168,6 +168,7 @@ form {
 
 .header-buttons:hover {
   background-color: #1478aa;
+  cursor: pointer;
 }
 
 /* Sidebar */
