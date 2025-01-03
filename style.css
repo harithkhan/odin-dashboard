@@ -394,7 +394,7 @@ main {
 
 .trending-item-rows {
   display: grid;
-  grid-template: 1fr 1fr / 1fr 4fr;
+  grid-template: 1fr 1fr / 1fr 2.5fr;
   padding: 0 2rem 0 2rem;
 }
 
@@ -409,10 +409,12 @@ main {
 .trending-handle {
   align-self: end;
   padding-left: 0.6rem;
+  font-weight: bold;
 }
 
 .trending-name {
   color: #636363;
   padding-left: 0.6rem;
+  font-size: 0.9rem;
 }
 
